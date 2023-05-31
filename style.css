@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/IDroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Righteous&display=swap');
+
+iframe{
+    width: 400px;
+    height:400px;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 250, 202);
+    font-size: 16px;
+}
+
+
+
+
+
+header  {
+        
+        background-image:linear-gradient(to bottom,rgb(2, 207, 84), rgb(2, 88, 38) ) ;
+        text-align: center;
+        height: 100%;
+        width: 100%; 
+}
+header > h1{
+   
+    font-family: 'Righteous', cursive;
+    font-size:  2em; ;
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+
+
+}
+header > p {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.74);
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: auto;
+    width: 500px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+nav {
+
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    font-size: 14px;
+    background-color:rgb(3, 61, 30)  ;
+    text-shadow: 2px 2px 0px rgb(0, 0 , 0);
+}
+
+main{
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    font-size: 16px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    box-shadow: 10px;
+    
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena {
+ max-width: 350px;
+ display: block;
+ margin: auto;
+}
+
+
+article > h1 {
+    font-family:'idroid',sans-serif;
+    font-size: 25px;
+    
+    color:rgba(2, 145, 2, 0.904);
+    padding: 15px;
+}
+article > h2{
+    font-size:20px ;
+    font-family:'idroid',sans-serif;
+    color: rgba(2, 145, 2, 0.904);
+    background-image:linear-gradient(to Right, rgb(156, 250, 195),rgba(220, 247, 220, 0)); 
+    padding: 5px;
+
+}
+
+
+
+
+
+
+a.lan{
+    color: white;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+a.lan:hover{
+    color: rgba(115, 248, 115, 0.822) ;
+    background-color: rgb(0, 31, 13);
+    border-radius: 50px ;
+    text-decoration: none;
+}
+
+
+
+a{
+    
+    text-decoration: none;
+    color: rgb(1, 109, 1);
+}
+
+a:hover{
+    
+  
+    border-radius:5px;
+    text-decoration: underline;
+}
+
+aside{
+    margin: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color:rgb(131, 225, 173);
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 10px rgb(0, 0, 0);
+}
+
+aside > h2{
+    background-color: rgb(6,61,30);
+    padding: 20px;
+    margin: -10px -10px 0px -10px ;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: disc;
+}
+
+footer{
+    background-color: rgb(0, 31, 13);
+    
+    text-align: center;
+    font-size: 10px;
+    margin: 0px;
+    color: white;
+    padding: 2px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+   
+}
+
+.corpo{
+    display: block;
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    background-color: rgb(6, 61, 30);
+    
+    position: relative;
+    padding-bottom: 56.5% ;
+    
+}
+
+.corpo>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height:90% ;
+}
