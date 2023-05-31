@@ -36,7 +36,7 @@ header  {
 }
 header > h1{
    
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Righteous', cursive;
     font-size:  2em; ;
     color: white;
     padding: 5px;
@@ -56,7 +56,7 @@ header > p {
 }
 nav {
 
-    font-family: 'Fredericka the Great', cursive;
+   
     font-family: 'Righteous', cursive;
     text-align: left;
     font-size: 14px;
@@ -168,7 +168,7 @@ aside > h2{
 aside > ul {
     list-style-position: inside;
     columns: 2;
-    list-style-type: disc;
+    
 }
 
 footer{
